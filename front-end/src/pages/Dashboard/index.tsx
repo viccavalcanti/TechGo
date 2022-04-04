@@ -19,6 +19,7 @@ import {
   Section,
   Appointment,
   Calendar,
+  Background,
 } from './styles';
 
 import logoImg from '../../assets/logo.svg';
@@ -164,7 +165,6 @@ const Dashboard: React.FC = () => {
           </button>
         </HeaderContent>
       </Header>
-
       <Content>
         <Schedule>
           <h1>Horários agendados</h1>
@@ -270,6 +270,7 @@ const Dashboard: React.FC = () => {
             ]}
           />
         </Calendar>
+        <Background />
       </Content>
     </Container>
   );
