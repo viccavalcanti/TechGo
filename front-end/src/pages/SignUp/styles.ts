@@ -91,7 +91,10 @@ export const AnimationContainer = styled.div`
 `;
 
 export const Background = styled.div`
-  flex: 1;
-  background: url(${signInBackgroundImg}) no-repeat center;
-  background-size: cover;
+  background-image: url(https://arquivo.devmedia.com.br/naoexclusivo/JoelRodrigues/Documentacao/css-background/bg1.jpg),
+    url(https://arquivo.devmedia.com.br/naoexclusivo/JoelRodrigues/Documentacao/css-background/bg3.jpg);
+  background-repeat: no-repeat, repeat;
+  background-attachment: scroll, fixed;
+  background-blend-mode: luminosity;
+  height: 1000px;
 `;

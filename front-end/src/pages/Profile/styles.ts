@@ -92,7 +92,7 @@ export const AvatarInput = styled.div`
     }
 
     &:hover {
-      background: ${shade(0.2, '#FC5BB3')};
+      background: ${shade(0.2, '#4169E1')};
     }
   }
 `;

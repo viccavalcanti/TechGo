@@ -13,7 +13,7 @@ export const Container = styled.div`
 
   .DayPicker-wrapper {
     padding-bottom: 0;
-    background: #38506c;
+    background: #3597f9;
     border-radius: 0.6rem;
   }
 
@@ -42,14 +42,14 @@ export const Container = styled.div`
     border-spacing: 8px;
     margin: 1rem 0 0 0;
     padding: 16px;
-    background-color: #d7f6f8;
+    background-color: #a2cefa;
     border-radius: 0 0 10px 10px;
   }
 
   .DayPicker-Caption {
     margin-bottom: 1rem;
     padding: 0 1rem;
-    color: #dee2e6;
+    color: #fff;
 
     > div {
       text-align: center;
@@ -57,7 +57,7 @@ export const Container = styled.div`
   }
 
   .DayPicker-Weekday {
-    color: #666360;
+    color: #fff;
   }
 
   .DayPicker-Day {
@@ -66,18 +66,18 @@ export const Container = styled.div`
   }
 
   .DayPicker-Day--available:not(.DayPicker-Day--outside) {
-    background: #3fc1c9;
+    background: #0ba4fa;
     border-radius: 0.6rem;
   }
 
   .DayPicker:not(.DayPicker--interactionDisabled)
     .DayPicker-Day:not(.DayPicker-Day--disabled):not(.DayPicker-Day--selected):not(.DayPicker-Day--outside):hover {
-    background: ${shade(0.2, '#3FC1C9')};
+    background: ${shade(0.2, '#FEFFFF')};
   }
 
   .DayPicker-Day--today {
     font-weight: normal;
-    color: #3597f9;
+    color: #fff;
   }
 
   .DayPicker-Day--disabled {
@@ -86,7 +86,7 @@ export const Container = styled.div`
   }
 
   .DayPicker-Day--selected {
-    background: #fc5bb3 !important;
+    background: #073dfb !important;
     border-radius: 0.6rem;
     color: #232129 !important;
     font-weight: 500;
